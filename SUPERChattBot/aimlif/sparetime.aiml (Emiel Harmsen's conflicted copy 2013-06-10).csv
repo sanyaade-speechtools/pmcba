@@ -1,0 +1,34 @@
+0,YES,DID YOU HAVE ANY SPARETIME TODAY,*,Nice What did you do? Did you go to <get name="Pastevent1"/>.,sparetime.aiml
+0,YES,DID YOU GO TO *,*,Did you go with <get name="goodfriend"/>?,sparetime.aiml
+0,YES,DID YOU GO WITH *,*,Did you enjoy the time with <get name="goodfriend"/>?,sparetime.aiml
+0,*,AWESOME WHY DID YOU ENJOY IT,*,<srai>IAMRESPONSE</srai>,sparetime.aiml
+0,NO,DID YOU ENJOY THE TIME WITH *,*,Why not? What happened?,sparetime.aiml
+0,*,WHAT HAPPENED *,*,That blows!,sparetime.aiml
+0,NO,DID YOU GO WITH *,*,Did you go alone?,sparetime.aiml
+0,YES,DID YOU GO ALONE,*,Why did you go alone? You have <get name="facebookfriends"/> friends. Well atleast on facebook.,sparetime.aiml
+0,*,WELL ATLEAST ON FACEBOOK,*,Have you met any new interesting people? What about <get name="friendrequest1"/>?,sparetime.aiml
+0,YES,WHAT ABOUT *,*,Why is <get name="friendrequest1"/> interesting?,sparetime.aiml
+0,YES,WHY IS * INTERESTING,*,<srai>IAMRESPONSE</srai>,sparetime.aiml
+0,NO,WHAT ABOUT *,*,So you are not going to add <get name="friendrequest1"/> on facebook?,sparetime.aiml
+0,NO,SO YOU ARE NOT GOING TO ADD * ON FACEBOOK?,*,Why not? What happened?,sparetime.aiml
+0,*,WHAT HAPPENED,*,<srai>IAMRESPONSE</srai>,sparetime.aiml
+0,NO,DID YOU GO ALONE,*,Ok nice#Comma who joined you?,sparetime.aiml
+0,*,OK NICE WHO JOINED YOU,*,Tell me more about <star/>,sparetime.aiml
+0,YES,DID YOU ENJOY THE TIME WITH *,*,Awesome. So now#Comma waht does this tell you about you relationship with <get name="goodfriend"/>?,sparetime.aiml
+0,YES,SO NOW, WAHT DOES THIS TELL YOU ABOUT YOU RELATIONSHIP WITH *,*,<srai>IAMTell me more aboutRESPONSE</srai>,sparetime.aiml
+0,NO,DID YOU HAVE ANY SPARETIME TODAY,*,You did not? Why? Did you have to study?,sparetime.aiml
+0,YES,DID YOU HAVE TO STUDY,*,Hmm that is stupid. Well#Comma tomorrow is another day ;-),sparetime.aiml
+0,NO,DID YOU HAVE TO STUDY,*,Well what did you do then? Did you waste your time on something?,sparetime.aiml
+0,RADNOM,*,*,Do you go to <get name="event1"/>.,sparetime.aiml
+0,YES,DO YOU GO TO *,*,Do you go with <get name="goodfriend"/>?,sparetime.aiml
+0,YES,WILL YOU GO TO *,*,Are you going to <get name="futureevent1"/> with <get name="goodfriend"/>?,sparetime.aiml
+0,YES,ARE YOU GOING TO * WITH *,*,Do you think it will be fun to go with <get name="goodfriend"/>?,sparetime.aiml
+0,YES,DO YOU THINK IT WILL BE FUN TO GO WITH *,*,Awesome! Why?,sparetime.aiml
+0,*,WHY,*,<srai>IAMRESPONSE</srai>,sparetime.aiml
+0,NO,DO YOU THINK IT WILL BE FUN TO GO WITH *,*,Why not?,sparetime.aiml
+0,*,WHY NOT,*,<srai>IAMRESPONSE</srai>,sparetime.aiml
+0,NO,ARE YOU GOING TO * WITH *,*,Why not? You are invited to come!,sparetime.aiml
+0,NO,YOU ARE INVITED TO COME,*,Is <get name="goodfriend"/> not going?,sparetime.aiml
+0,NO,IS * NOT GOING,*,Hmm too bad.,sparetime.aiml
+0,YES,IS * NOT GOING,*,So why are you not joining <get name="goodfriend"/>.,sparetime.aiml
+0,*,SO WHY ARE YOU NOT JOINING *,*,<srai>IAMRESPONSE</srai>,sparetime.aiml

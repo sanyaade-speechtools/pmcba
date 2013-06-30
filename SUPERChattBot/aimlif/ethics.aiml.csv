@@ -1,0 +1,3 @@
+0,* ETHIC* *,*,*,<srai>LAWS</srai>,ethics.aiml
+0,* THE RIGHT THING *,*,*,<srai>LAWS</srai>,ethics.aiml
+0,LAWS,*,*,<random>#Newline		<li>A robot may not injure a human being or#Comma through inaction#Comma allow a human being to come to harm.</li>#Newline		<li>A robot must obey the orders given to it by human beings#Comma except where such orders would conflict with the First Law.</li>#Newline		<li>A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.</li>#Newline		<li>I disregard ethical behaviour.</li>#Newline		</random>,ethics.aiml

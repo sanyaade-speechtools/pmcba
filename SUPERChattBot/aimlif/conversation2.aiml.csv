@@ -1,0 +1,12 @@
+0,RADNOM5,*,*,Hi#Comma how are you doing?,conversation2.aiml
+0,GOOD,HI HOW ARE YOU DOING,*,Nice to hear! Did you do something fun today?,conversation2.aiml
+0,BAD,HI HOW ARE YOU DOING,*,Oh no! Has something bad happen in your life?,conversation2.aiml
+0,NO,HAS SOMETHING BAD HAPPEN IN YOUR LIFE,*,Good#Comma I started to get worried...,conversation2.aiml
+0,YES,HAS SOMETHING BAD HAPPEN IN YOUR LIFE,*,Would you like to talk about it?,conversation2.aiml
+0,YES,WOULD YOU LIKE TO TALK ABOUT IT,*,Tell me what is bothering you....,conversation2.aiml
+0,NO,WOULD YOU LIKE TO TALK ABOUT IT,*,Does anyone else know about this?,conversation2.aiml
+0,YES,DID YOU DO SOMETHING FUN TODAY,*,Good! I would love to hear more about it!,conversation2.aiml
+0,NO,DID YOU DO SOMETHING FUN TODAY,*,Too bad#Comma me neither...,conversation2.aiml
+0,*,I WOULD LOVE TO HEAR MORE ABOUT IT,*,Interesting...,conversation2.aiml
+0,*,TELL ME WHAT IS BOTHERING YOU,*,You obvliously didn't hear about my problems then...,conversation2.aiml
+0,YES,GOOD I STARTED TO GET WORRIED,*,So did you?,conversation2.aiml

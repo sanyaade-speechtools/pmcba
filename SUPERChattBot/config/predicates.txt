@@ -1,0 +1,93 @@
+dialnumber:unknown
+location:where
+favoritebook:what
+grandfather:who
+street:which
+niece:who
+longitute:which
+favoritesport:what
+has:what
+city:Nijmegen, Netherlands
+religion:unknown
+favoritedrink:what
+age:20
+she:who
+province:which
+gender:male
+topic:unknown
+phonenumber:unknown
+orientation:unknown
+middlename:what
+status:what
+favoritefood:what
+son:who
+he:who
+country:which
+sign:which
+favoriteactress:who
+favoritecolor:what
+newcontact:unknown
+mother:who
+email:yannickdonners87@hotmail.com
+birthplace:where
+county:which
+them:who
+nephew:who
+likes:what
+favoriteicecream:what
+town:which
+latitude:which
+favoritetvshow:what
+friend:who
+we:who
+birthday:02/07/1993
+cat:what
+favoriteactor:who
+state:which
+employer:who
+daughter:who
+lastname:Donners
+facebookfriends:110
+road:which
+husband:who
+isanumber:false
+meta:set
+favoriteband:who
+father:who
+friend9:Ramon Houtsma
+sister:who
+friend8:Cecile van der Waal
+friend7:Carmen Griffioen
+favoritecar:what
+friend6:Andrea Schwiertz
+name:Yannick Donners
+friend1:Michiel Donners
+friend0:Robert Broersma
+baby:who
+friend5:Raphael Buchberger
+friend4:Meike Nauta
+education1:Canisius College
+hair:what
+friend3:Iris Wolf
+education2:University of Twente
+friend2:David Goedicke
+education3:Uni. Twente
+it:what
+newpattern:NORESP
+favoritesong:what
+girlfriend:who
+favoritemovie:what
+firstname:Yannick
+bestfriend:who
+grandmother:who
+residence:where
+boyfriend:who
+address:where
+friend10:Emiel Harmsen
+wife:who
+voicemailnumber:unknown
+there:where
+equalto:false
+customname:unknown
+brother:Michiel Donners
+dog:who

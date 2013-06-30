@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+<category>
+<pattern>INPUT</pattern><that>*</that>
+<template>test
+<think><set name="topic">TEST</set></think>
+</template>
+</category>
+
+</aiml>

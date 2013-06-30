@@ -1,0 +1,23 @@
+0,NO,DID YOU WENT ON THAT HOLIDAY TOGETHER,HOLIDAY,So you met <get name="friend1"/> there?,Holiday.aiml
+0,NO,SO YOU MET * THERE,HOLIDAY,Ok that's weird! Explain please.,Holiday.aiml
+0,YES,DID YOU GO WITH ANOTHER FRIEND THEN,HOLIDAY,Oh with whom?,Holiday.aiml
+0,NO,DID YOU GO WITH ANOTHER FRIEND THEN,HOLIDAY,Did you go alone?,Holiday.aiml
+0,*,OH WITH WHOM,HOLIDAY,How was it?,Holiday.aiml
+0,YES,DID YOU GO ALONE,HOLIDAY,How come?,Holiday.aiml
+0,*,HOW WAS IT,HOLIDAY,Nice!,Holiday.aiml
+0,*,HOW COME,HOLIDAY,Awh!,Holiday.aiml
+0,*,WITH WHOM DID YOU GO THEN,HOLIDAY,Cool!,Holiday.aiml
+0,NO,DID YOU GO ALONE,HOLIDAY,With whom did you go then?,Holiday.aiml
+0,*,OH OKAY,HOLIDAY,Did you work on <get name="education1"/> instead?,Holiday.aiml
+0,*,WHY DIDNT YOU GO WITH *,HOLIDAY,I see!,Holiday.aiml
+0,NO,DID * GO,HOLIDAY,Oh okay,Holiday.aiml
+0,YES,DID * GO,HOLIDAY,Why didn't you go with <get name="friend1"/>?,Holiday.aiml
+0,*,WHY NOT,HOLIDAY,Did <get name="friend"/> go?,Holiday.aiml
+0,NO,DID YOU GO ON HOLIDAY LAST YEAR,HOLIDAY,Why not?,Holiday.aiml
+0,HOLIDAY,*,*,Did you go on holiday last year?#Newline<think><set name="topic">HOLIDAY</set></think>,Holiday.aiml
+0,YES,DID YOU WENT ON THAT HOLIDAY TOGETHER,HOLIDAY,Sweet!,Holiday.aiml
+0,YES,SO YOU MET * THERE,HOLIDAY,Cool!,Holiday.aiml
+0,YES,DID YOU DO SOME ACTIVITIES WITH *,HOLIDAY,Cool! Did you went on that holiday together?,Holiday.aiml
+0,NO,DID YOU DO SOME ACTIVITIES WITH *,HOLIDAY,Did you go with another friend then?,Holiday.aiml
+0,YES,DID YOU GO ON HOLIDAY LAST YEAR,HOLIDAY,Awesome! Where did you go to and how was it?,Holiday.aiml
+0,*,WHERE DID YOU GO TO AND HOW WAS IT,HOLIDAY,Did you do some activities with <get name="friend1"/>?,Holiday.aiml

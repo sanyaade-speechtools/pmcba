@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>OK</pattern>
+<template><srai>YES</srai></template>
+</category>
+<category><pattern>YEP</pattern>
+<template><srai>YES</srai></template>
+</category>
+<category><pattern>YO</pattern>
+<template><srai>YES</srai></template>
+</category>
+
+<category><pattern>NO WAY</pattern>
+<template><srai>NO</srai></template>
+</category>
+<category><pattern>NOPE</pattern>
+<template><srai>NO</srai></template>
+</category>
+<category><pattern>NEE</pattern>
+<template><srai>NO</srai></template>
+</category>
+
+</aiml>

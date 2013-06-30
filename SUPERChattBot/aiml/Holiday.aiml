@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>NO</pattern><that>DID YOU WENT ON THAT HOLIDAY TOGETHER</that>
+<template>So you met <get name="friend1"/> there?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>NO</pattern><that>SO YOU MET * THERE</that>
+<template>Ok that's weird! Explain please. 
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>YES</pattern><that>DID YOU GO WITH ANOTHER FRIEND THEN</that>
+<template>Oh with whom?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>NO</pattern><that>DID YOU GO WITH ANOTHER FRIEND THEN</that>
+<template>Did you go alone?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>*</pattern><that>OH WITH WHOM</that>
+<template>How was it?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>YES</pattern><that>DID YOU GO ALONE</that>
+<template>How come?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>*</pattern><that>HOW WAS IT</that>
+<template>Nice!
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>*</pattern><that>HOW COME</that>
+<template>Awh!
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>*</pattern><that>WITH WHOM DID YOU GO THEN</that>
+<template>Cool!
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>NO</pattern><that>DID YOU GO ALONE</that>
+<template>With whom did you go then?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>*</pattern><that>OH OKAY</that>
+<template>Did you work on <get name="education1"/> instead?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>*</pattern><that>WHY DIDNT YOU GO WITH *</that>
+<template>I see!
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>NO</pattern><that>DID * GO</that>
+<template>Oh okay
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>YES</pattern><that>DID * GO</that>
+<template>Why didn't you go with <get name="friend1"/>?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>*</pattern><that>WHY NOT</that>
+<template>Did <get name="friend"/> go?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>NO</pattern><that>DID YOU GO ON HOLIDAY LAST YEAR</that>
+<template>Why not?
+</template>
+</category>
+</topic>
+
+<category>
+<pattern>HOLIDAY</pattern><that>*</that>
+<template>Did you go on holiday last year?
+<think><set name="topic">HOLIDAY</set></think>
+</template>
+</category>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>YES</pattern><that>DID YOU WENT ON THAT HOLIDAY TOGETHER</that>
+<template>Sweet!
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>YES</pattern><that>SO YOU MET * THERE</that>
+<template>Cool!
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>YES</pattern><that>DID YOU DO SOME ACTIVITIES WITH *</that>
+<template>Cool! Did you went on that holiday together?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>NO</pattern><that>DID YOU DO SOME ACTIVITIES WITH *</that>
+<template>Did you go with another friend then?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>YES</pattern><that>DID YOU GO ON HOLIDAY LAST YEAR</that>
+<template>Awesome! Where did you go to and how was it?
+</template>
+</category>
+</topic>
+
+<topic name="HOLIDAY">
+<category>
+<pattern>*</pattern><that>WHERE DID YOU GO TO AND HOW WAS IT</that>
+<template>Did you do some activities with <get name="friend1"/>?
+</template>
+</category>
+</topic>
+
+</aiml>

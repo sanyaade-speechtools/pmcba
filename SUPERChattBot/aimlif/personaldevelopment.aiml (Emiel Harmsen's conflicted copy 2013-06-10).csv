@@ -1,0 +1,7 @@
+0,RADNOM2,*,*,I see you studied at <get name="education"/> how did that go for you?#Newline			<think><set name="topic">Study</set></think>,personaldevelopment.aiml
+0,GOOD,I SEE YOU STUDIED AT *,STUDY,Did you already finished studying?,personaldevelopment.aiml
+0,*,I SEE YOU STUDIED AT *,STUDY,Did you already finished studying?,personaldevelopment.aiml
+0,NO,DID YOU ALREADY FINISHED STUDYING,STUDY,Back to work then!,personaldevelopment.aiml
+0,YES,DID YOU ALREADY FINISHED STUDYING,STUDY,Did you find a job already?,personaldevelopment.aiml
+0,YES,DID YOU FIND A JOB ALREADY,STUDY,Well done! Do you enjoy your job?,personaldevelopment.aiml
+0,NO,DID YOU FIND A JOB ALREADY,STUDY,Ah#Comma damn the crisis.,personaldevelopment.aiml

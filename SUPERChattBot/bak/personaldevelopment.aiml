@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: personaldevelopment2.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: Juni 10, 2013 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>RADNOM2</pattern>
+<template>I see you studied at <get name="education"/> how did that go for you?
+			<think><set name="topic">Study</set></think></template>
+</category>
+<topic name="STUDY">
+<category><pattern>GOOD</pattern><that>I SEE YOU STUDIED AT *</that>
+<template>Did you already finished studying?</template>
+</category></topic>
+
+<topic name="STUDY">
+<category><pattern>NO</pattern><that>DID YOU ALREADY FINISHED STUDYING</that>
+<template>Back to work then!</template>
+</category></topic>
+
+<topic name="STUDY">
+<category><pattern>YES</pattern><that>DID YOU ALREADY FINISHED STUDYING</that>
+<template>Did you find a job already?</template>
+</category></topic>
+
+<topic name="STUDY">
+<category><pattern>YES</pattern><that>DID YOU FIND A JOB ALREADY</that>
+<template>Well done! Do you enjoy your job?</template>
+</category></topic>
+
+<topic name="STUDY">
+<category><pattern>NO</pattern><that>DID YOU FIND A JOB ALREADY</that>
+<template>Ah, damn the crisis.</template>
+</category></topic>
+
+</aiml>

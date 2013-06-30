@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+<topic name="RANDOMTES">
+<category>
+<pattern>YES</pattern><that>HELLO THERE</that>
+<template>test1
+</template>
+</category>
+</topic>
+
+<topic name="RANDOMTES">
+<category>
+<pattern>YES</pattern><that>HELLO THERE</that>
+<template>test2
+</template>
+</category>
+</topic>
+
+<topic name="RANDOMTES">
+<category>
+<pattern>YES</pattern><that>HELLO THERE</that>
+<template>test3
+</template>
+</category>
+</topic>
+
+<category>
+<pattern>RADNOM6</pattern><that>*</that>
+<template>hello there
+<think><set name="topic">RANDOMTES</set></think>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: ethics.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: Juni 10, 2013 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>* ETHIC* *</pattern>
+<template><srai>LAWS</srai></template>
+</category>
+<category><pattern>* THE RIGHT THING *</pattern>
+<template><srai>LAWS</srai></template>
+</category>
+<category><pattern>LAWS</pattern>
+<template><random>
+		<li>A robot may not injure a human being or, through inaction, allow a human being to come to harm.</li>
+		<li>A robot must obey the orders given to it by human beings, except where such orders would conflict with the First Law.</li>
+		<li>A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.</li>
+		<li>I disregard ethical behaviour.</li>
+		</random></template>
+</category>
+</aiml>

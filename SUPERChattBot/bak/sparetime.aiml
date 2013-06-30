@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: sparetime.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: Juni 10, 2013 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>YES</pattern><that>DID YOU HAVE ANY SPARETIME TODAY</that>
+<template>Nice What did you do? Did you go to <get name="Pastevent1"/>.</template>
+</category>
+<category><pattern>YES</pattern><that>DID YOU GO TO *</that>
+<template>Did you go with <get name="goodfriend"/>?</template>
+</category>
+<category><pattern>YES</pattern><that>DID YOU GO WITH *</that>
+<template>Did you enjoy the time with <get name="goodfriend"/>?</template>
+</category>
+<category><pattern>*</pattern><that>AWESOME WHY DID YOU ENJOY IT</that>
+<template><srai>IAMRESPONSE</srai></template>
+</category>
+<category><pattern>NO</pattern><that>DID YOU ENJOY THE TIME WITH *</that>
+<template>Why not? What happened?</template>
+</category>
+<category><pattern>*</pattern><that>WHAT HAPPENED *</that>
+<template>That blows!</template>
+</category>
+<category><pattern>NO</pattern><that>DID YOU GO WITH *</that>
+<template>Did you go alone?</template>
+</category>
+<category><pattern>YES</pattern><that>DID YOU GO ALONE</that>
+<template>Why did you go alone? You have <get name="facebookfriends"/> friends. Well atleast on facebook.</template>
+</category>
+<category><pattern>*</pattern><that>WELL ATLEAST ON FACEBOOK</that>
+<template>Have you met any new interesting people? What about <get name="friendrequest1"/>?</template>
+</category>
+<category><pattern>YES</pattern><that>WHAT ABOUT *</that>
+<template>Why is <get name="friendrequest1"/> interesting?</template>
+</category>
+<category><pattern>YES</pattern><that>WHY IS * INTERESTING</that>
+<template><srai>IAMRESPONSE</srai></template>
+</category>
+<category><pattern>NO</pattern><that>WHAT ABOUT *</that>
+<template>So you are not going to add <get name="friendrequest1"/> on facebook?</template>
+</category>
+<category><pattern>NO</pattern><that>SO YOU ARE NOT GOING TO ADD * ON FACEBOOK?</that>
+<template>Why not? What happened?</template>
+</category>
+<category><pattern>*</pattern><that>WHAT HAPPENED</that>
+<template><srai>IAMRESPONSE</srai></template>
+</category>
+<category><pattern>NO</pattern><that>DID YOU GO ALONE</that>
+<template>Ok nice, who joined you?</template>
+</category>
+<category><pattern>*</pattern><that>OK NICE WHO JOINED YOU</that>
+<template>Tell me more about <star/></template>
+</category>
+<category><pattern>YES</pattern><that>DID YOU ENJOY THE TIME WITH *</that>
+<template>Awesome. So now, waht does this tell you about you relationship with <get name="goodfriend"/>?</template>
+</category>
+<category><pattern>NO</pattern><that>DID YOU HAVE ANY SPARETIME TODAY</that>
+<template>You did not? Why? Did you have to study?</template>
+</category>
+<category><pattern>YES</pattern><that>DID YOU HAVE TO STUDY</that>
+<template>Hmm that is stupid. Well, tomorrow is another day ;-)</template>
+</category>
+<category><pattern>NO</pattern><that>DID YOU HAVE TO STUDY</that>
+<template>Well what did you do then? Did you waste your time on something?</template>
+</category>
+<category><pattern>RADNOM</pattern>
+<template>Do you go to <get name="event1"/>.</template>
+</category>
+<category><pattern>YES</pattern><that>DO YOU GO TO *</that>
+<template>Do you go with <get name="goodfriend"/>?</template>
+</category>
+<category><pattern>YES</pattern><that>WILL YOU GO TO *</that>
+<template>Are you going to <get name="futureevent1"/> with <get name="goodfriend"/>?</template>
+</category>
+<category><pattern>YES</pattern><that>ARE YOU GOING TO * WITH *</that>
+<template>Do you think it will be fun to go with <get name="goodfriend"/>?</template>
+</category>
+<category><pattern>YES</pattern><that>DO YOU THINK IT WILL BE FUN TO GO WITH *</that>
+<template>Awesome! Why?</template>
+</category>
+<category><pattern>*</pattern><that>WHY</that>
+<template><srai>IAMRESPONSE</srai></template>
+</category>
+<category><pattern>NO</pattern><that>DO YOU THINK IT WILL BE FUN TO GO WITH *</that>
+<template>Why not?</template>
+</category>
+<category><pattern>*</pattern><that>WHY NOT</that>
+<template><srai>IAMRESPONSE</srai></template>
+</category>
+<category><pattern>NO</pattern><that>ARE YOU GOING TO * WITH *</that>
+<template>Why not? You are invited to come!</template>
+</category>
+<category><pattern>NO</pattern><that>YOU ARE INVITED TO COME</that>
+<template>Is <get name="goodfriend"/> not going?</template>
+</category>
+<category><pattern>NO</pattern><that>IS * NOT GOING</that>
+<template>Hmm too bad.</template>
+</category>
+<category><pattern>YES</pattern><that>IS * NOT GOING</that>
+<template>So why are you not joining <get name="goodfriend"/>.</template>
+</category>
+<category><pattern>*</pattern><that>SO WHY ARE YOU NOT JOINING *</that>
+<template><srai>IAMRESPONSE</srai></template>
+</category>
+</aiml>

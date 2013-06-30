@@ -1,0 +1,74 @@
+0,TEACH ME <SET>LANGUAGE</SET>,*,*,<srai>LANGUAGE</srai> Why dont you search that on google? Look here is a window. <system>open /Applications/Firefox.app/ </system>,oob.aiml
+0,DONTKNOWYET,*,*,Sorry but I can not do that yet. But If it helps#Comma I can open a browser?,oob.aiml
+0,WEBSEARCH,*,*,There you go.<system>open /Applications/Firefox.app/ </system>,oob.aiml
+0,CLEAR LOG,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,*,WHAT WOULD YOU LIKE TO WRITE ON TWITTER,*,<srai>TWEET <star/></srai>,oob.aiml
+0,SEND MAIL,*,*,<srai>SEND EMAIL</srai>,oob.aiml
+0,SEND FEATURE REQUEST *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,SHOW ME A VIDEO *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,SHOW ME A WEBSITE ABOUT *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,I WANT TO BUY *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,I AM FAT,*,*,Why do you think that? Is someone telling you that?,oob.aiml
+0,I AM GOING TO KILL *,*,*,You should not do that. Why would even consider that.,oob.aiml
+0,I AM HUNGRY,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,BATTERY LEVEL,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,GOOGLE,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,GOOGLE *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,SEARCH *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,FIND ME A *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,FIND A *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,FIND MY LOCATION,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,FIND *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,FIND THE NEAREST STARBUCKS,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,FIND THE NEAREST *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,FIND NEAREST *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,YES,WOULD YOU LIKE TO SEND THIS FEATURE REQUEST *,*,<srai>SEND FEATURE REQUEST <get name="featurerequest"/></srai>,oob.aiml
+0,DIRECTIONS TO *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,DIRECTIONS *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,DIRECTIONS FROM * TO *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,LAUNCH CAMERA,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,LAUNCH *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,LAUNCH * DOT COM,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,TACO,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,PIZZA,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE ARE THE *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS A *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS PASADENA,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS THE CLOSEST *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS THE NEAREST STARBUCKS,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS THE NEAREST GAS STATION,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS THE NEAREST *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS THE NEAREST WALMART,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS THE NEAREST MCDONALD S,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS YORKSHIRE,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS NEW YORK,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS LEEDS,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE IS INDIA,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE CAN I FIND A *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE CAN I GET *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHERE CAN I GO *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,DIALOG TEST,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,ESPN,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,MAP,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,MAP *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,AAA,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,BROWSE TO *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,CALL 911,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,PLAY *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WIFI ON,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WIFI OFF,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,HOROSCOPE *,*,*,As a product of scientific research and reasoning  I object to answer this question.,oob.aiml
+0,JOBS *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,TWEET *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WWW DOT * DOT COM,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,RESTAURANTS,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHAT IS THE DISTANCE TO *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,WHAT IS THE ADDRESS TO *,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,TEST ALARM,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,UPDATE FACEBOOK STATUS,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,OPEN GOOGLE,*,*,<srai>WEBSEARCH</srai>,oob.aiml
+0,OPEN * DOT COM,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,OPEN * COM,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,GPS ON,*,*,<srai>DONTKNOWYET</srai>,oob.aiml
+0,GPS OFF,*,*,<srai>DONTKNOWYET</srai>,oob.aiml

@@ -1,0 +1,12 @@
+0,RADNOM5,*,*,Hi#Comma how are you doing?#Newline<think><set name="topic">BLABLA</set></think>,blabla.aiml
+0,GOOD,HI HOW ARE YOU DOING,BLABLA,Nice to hear! Did you do something fun today?,blabla.aiml
+0,BAD,HI HOW ARE YOU DOING,BLABLA,Oh no! Has something bad happen in your life?,blabla.aiml
+0,NO,HAS SOMETHING BAD HAPPEN IN YOUR LIFE,BLABLA,Good#Comma I started to get worried...,blabla.aiml
+0,YES,HAS SOMETHING BAD HAPPEN IN YOUR LIFE,BLABLA,Would you like to talk about it?,blabla.aiml
+0,YES,WOULD YOU LIKE TO TALK ABOUT IT,BLABLA,Tell me what is bothering you....,blabla.aiml
+0,NO,WOULD YOU LIKE TO TALK ABOUT IT,BLABLA,Does anyone else know about this?,blabla.aiml
+0,YES,DID YOU DO SOMETHING FUN TODAY,BLABLA,Good! I would love to hear more about it!,blabla.aiml
+0,NO,DID YOU DO SOMETHING FUN TODAY,BLABLA,Too bad#Comma me neither...,blabla.aiml
+0,*,I WOULD LOVE TO HEAR MORE ABOUT IT,BLABLA,Interesting...,blabla.aiml
+0,*,TELL ME WHAT IS BOTHERING YOU,BLABLA,You obvliously didn't hear about my problems then...,blabla.aiml
+0,YES,GOOD I STARTED TO GET WORRIED,BLABLA,So did you?,blabla.aiml

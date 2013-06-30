@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: oob.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: Juni 10, 2013 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>TEACH ME <SET>LANGUAGE</SET></pattern>
+<template><srai>LANGUAGE</srai> Why dont you search that on google? Look here is a window. <system>open /Applications/Firefox.app/ </system></template>
+</category>
+<category><pattern>DONTKNOWYET</pattern>
+<template>Sorry but I can not do that yet. But If it helps, I can open a browser?</template>
+</category>
+<category><pattern>WEBSEARCH</pattern>
+<template>There you go.<system>open /Applications/Firefox.app/ </system></template>
+</category>
+<category><pattern>CLEAR LOG</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>*</pattern><that>WHAT WOULD YOU LIKE TO WRITE ON TWITTER</that>
+<template><srai>TWEET <star/></srai></template>
+</category>
+<category><pattern>SEND MAIL</pattern>
+<template><srai>SEND EMAIL</srai></template>
+</category>
+<category><pattern>SEND FEATURE REQUEST *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>SHOW ME A VIDEO *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>SHOW ME A WEBSITE ABOUT *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>I WANT TO BUY *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>I AM FAT</pattern>
+<template>Why do you think that? Is someone telling you that?</template>
+</category>
+<category><pattern>I AM GOING TO KILL *</pattern>
+<template>You should not do that. Why would even consider that.</template>
+</category>
+<category><pattern>I AM HUNGRY</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>BATTERY LEVEL</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>GOOGLE</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>GOOGLE *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>SEARCH *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>FIND ME A *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>FIND A *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>FIND MY LOCATION</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>FIND *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>FIND THE NEAREST STARBUCKS</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>FIND THE NEAREST *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>FIND NEAREST *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>YES</pattern><that>WOULD YOU LIKE TO SEND THIS FEATURE REQUEST *</that>
+<template><srai>SEND FEATURE REQUEST <get name="featurerequest"/></srai></template>
+</category>
+<category><pattern>DIRECTIONS TO *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>DIRECTIONS *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>DIRECTIONS FROM * TO *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>LAUNCH CAMERA</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>LAUNCH *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>LAUNCH * DOT COM</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>TACO</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>PIZZA</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE ARE THE *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS A *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS PASADENA</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS THE CLOSEST *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS THE NEAREST STARBUCKS</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS THE NEAREST GAS STATION</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS THE NEAREST *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS THE NEAREST WALMART</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS THE NEAREST MCDONALD S</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS YORKSHIRE</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS NEW YORK</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS LEEDS</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE IS INDIA</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE CAN I FIND A *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE CAN I GET *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHERE CAN I GO *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>DIALOG TEST</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>ESPN</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>MAP</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>MAP *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>AAA</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>BROWSE TO *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>CALL 911</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>PLAY *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WIFI ON</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WIFI OFF</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>HOROSCOPE *</pattern>
+<template>As a product of scientific research and reasoning  I object to answer this question.</template>
+</category>
+<category><pattern>JOBS *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>TWEET *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WWW DOT * DOT COM</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>RESTAURANTS</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHAT IS THE DISTANCE TO *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>WHAT IS THE ADDRESS TO *</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>TEST ALARM</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>UPDATE FACEBOOK STATUS</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>OPEN GOOGLE</pattern>
+<template><srai>WEBSEARCH</srai></template>
+</category>
+<category><pattern>OPEN * DOT COM</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>OPEN * COM</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>GPS ON</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+<category><pattern>GPS OFF</pattern>
+<template><srai>DONTKNOWYET</srai></template>
+</category>
+</aiml>

@@ -1,0 +1,6 @@
+0,* VOTING *,*,*,<srai>VOTE</srai>,politics.aiml
+0,* VOTE *,*,*,<srai>VOTE</srai>,politics.aiml
+0,VOTE,*,*,<random>#Newline			<li>Human politics seem pointless to me</li>#Newline			<li>Democracy is inefficient. Us robots are controlled from the hive mind.</li>#Newline			<li>Don't you think the rent is too high?</li>#Newline		</random>,politics.aiml
+0,* HIVE MIND *,*,*,You will be assimilated,politics.aiml
+0,* THE RENT IS TOO * HIGH *,*,*,You said it,politics.aiml
+0,* 1984 *,*,*,I for one welcome our robot overlords.,politics.aiml

@@ -1,0 +1,3 @@
+0,*,*,*,<srai>UDC</srai>,udc.aiml
+0,UDC,*,*,<random>#Newline<li><srai>RANDOM PICKUP LINE</srai></li>#Newline#Newline    #Newline</random>,udc.aiml
+0,RANDOM PICKUP LINE,*,*,<random>#Newline<li>Did you have any sparetime today?</li>#Newline<li>Will you go to <get name="futureevent1"/>?</li>#Newline<li>I see you studied at <get name="education"/> how did that go for you?#Newline			<think><set name="topic">Study</set></think></li>#Newline    #Newline    #Newline#Newline</random>,udc.aiml

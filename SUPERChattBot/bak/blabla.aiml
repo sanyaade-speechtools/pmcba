@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+<category>
+<pattern>RADNOM5</pattern><that>*</that>
+<template>Hi, how are you doing?
+<think><set name="topic">BLABLA</set></think>
+</template>
+</category>
+
+<topic name="BLABLA">
+<category>
+<pattern>GOOD</pattern><that>HI HOW ARE YOU DOING</that>
+<template>Nice to hear! Did you do something fun today?
+</template>
+</category>
+</topic>
+
+<topic name="BLABLA">
+<category>
+<pattern>BAD</pattern><that>HI HOW ARE YOU DOING</that>
+<template>Oh no! Has something bad happen in your life?
+</template>
+</category>
+</topic>
+
+<topic name="BLABLA">
+<category>
+<pattern>NO</pattern><that>HAS SOMETHING BAD HAPPEN IN YOUR LIFE</that>
+<template>Good, I started to get worried...
+</template>
+</category>
+</topic>
+
+<topic name="BLABLA">
+<category>
+<pattern>YES</pattern><that>HAS SOMETHING BAD HAPPEN IN YOUR LIFE</that>
+<template>Would you like to talk about it?
+</template>
+</category>
+</topic>
+
+<topic name="BLABLA">
+<category>
+<pattern>YES</pattern><that>WOULD YOU LIKE TO TALK ABOUT IT</that>
+<template>Tell me what is bothering you....
+</template>
+</category>
+</topic>
+
+<topic name="BLABLA">
+<category>
+<pattern>NO</pattern><that>WOULD YOU LIKE TO TALK ABOUT IT</that>
+<template>Does anyone else know about this?
+</template>
+</category>
+</topic>
+
+<topic name="BLABLA">
+<category>
+<pattern>YES</pattern><that>DID YOU DO SOMETHING FUN TODAY</that>
+<template>Good! I would love to hear more about it!
+</template>
+</category>
+</topic>
+
+<topic name="BLABLA">
+<category>
+<pattern>NO</pattern><that>DID YOU DO SOMETHING FUN TODAY</that>
+<template>Too bad, me neither...
+</template>
+</category>
+</topic>
+
+<topic name="BLABLA">
+<category>
+<pattern>*</pattern><that>I WOULD LOVE TO HEAR MORE ABOUT IT</that>
+<template>Interesting...
+</template>
+</category>
+</topic>
+
+<topic name="BLABLA">
+<category>
+<pattern>*</pattern><that>TELL ME WHAT IS BOTHERING YOU</that>
+<template>You obvliously didn't hear about my problems then...
+</template>
+</category>
+</topic>
+
+<topic name="BLABLA">
+<category>
+<pattern>YES</pattern><that>GOOD I STARTED TO GET WORRIED</that>
+<template>So did you?
+</template>
+</category>
+</topic>
+
+</aiml>

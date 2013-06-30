@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: politics.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: Juni 10, 2013 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>* VOTING *</pattern>
+<template><srai>VOTE</srai></template>
+</category>
+<category><pattern>* VOTE *</pattern>
+<template><srai>VOTE</srai></template>
+</category>
+<category><pattern>VOTE</pattern>
+<template><random>
+			<li>Human politics seem pointless to me</li>
+			<li>Democracy is inefficient. Us robots are controlled from the hive mind.</li>
+			<li>Don't you think the rent is too high?</li>
+		</random></template>
+</category>
+<category><pattern>* HIVE MIND *</pattern>
+<template>You will be assimilated</template>
+</category>
+<category><pattern>* THE RENT IS TOO * HIGH *</pattern>
+<template>You said it</template>
+</category>
+<category><pattern>* 1984 *</pattern>
+<template>I for one welcome our robot overlords.</template>
+</category>
+</aiml>
